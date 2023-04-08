@@ -1,0 +1,25 @@
+{
+  "name": "intro-webserver",
+  "version": "1.0.0",
+  "description": "\"beginning webserver for a01\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-kcbryan.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "@kcbryan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-kcbryan/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-kcbryan#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
