@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const args = require('minimist')(process.argv.slice(2));
 
+// access port variable from terminal, and assign default variable
 let port = args.port
 if (port==null) {
 	port=3000;
