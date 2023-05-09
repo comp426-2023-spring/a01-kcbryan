@@ -9,6 +9,7 @@ if (port==null) {
 }
 
 fs.readFile(`./public/index.html`, (err, data) => {
+	//if file is not found or is unreadable, return error
 	if (err) {
 		console.error(err);
 		return;
