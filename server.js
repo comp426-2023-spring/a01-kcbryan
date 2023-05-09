@@ -20,6 +20,7 @@ fs.readFile(`./public/index.html`, (err, data) => {
 		res.setHeader('Content-Type', 'text/html');
 		res.end(data)
 	}).listen(port, () => {
+		//return console.log message to know if port has been properly started
 		console.log(`Server listening on port ${port}`);
 	});
 }});
